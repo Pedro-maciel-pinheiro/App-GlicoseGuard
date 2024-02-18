@@ -1,8 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "moduleResolution": "node",
     "strict": true,
-    "paths": {
+    "baseUrl": "./src",
+    "paths": {"date-fns/format": ["node_modules/date-fns/format"] ,
       "@/*": [
         "./*"
       ]

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GlicoseGuard",
-    "slug": "GlicoseGuard",
+    "name": "GlicoseG",
+    "slug": "GlicoseG",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,19 +10,13 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#172554"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +28,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7d471180-4558-4aea-8e0b-706a5b49bd95"
+      }
+    },
+    "android": {
+      "package": "com.pedromaciel.GlicoseG"
     }
   }
 }
